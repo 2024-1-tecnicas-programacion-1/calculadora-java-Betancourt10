@@ -28,7 +28,7 @@ public class Calculadora {
                 break;
             case '^' :
                 // Operación potencia: 
-                respuesta = numero1 ^ numero2; 
+                respuesta = Math.pow(numero1, numero2); 
                 break; 
             case '%' : 
                 // Operación módulo: 
